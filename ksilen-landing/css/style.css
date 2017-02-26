@@ -1,0 +1,522 @@
+html, body {
+    height: 100%;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.wrapper-all {
+    width: 100%;
+    min-height: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.fadeIn {
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+}
+
+.header {
+    height: 90px;
+    background: linear-gradient(#7eadd6, #b0daf3);
+}
+
+.left-column {
+    height: 100%;
+}
+
+.middle-column {
+    height: 100%;
+}
+
+.right-column {
+    height: 100%;
+}
+
+.main .button-buy {
+    padding-left: 33px;
+    text-transform: uppercase;
+    background: url(../images/cart/cart.png) 10px center no-repeat #337ab7;
+}
+
+.main .button-buy:hover {
+    box-shadow: 0 0 3px 3px #2196f3;
+}
+
+.main .payment-method ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.main .payment-method ul li {
+    display: inline-block;
+}
+
+.main .payment-method ul li i {
+    display: block;
+    padding: 10px;
+}
+
+.main .package-example {
+    margin-bottom: 10px;
+}
+
+.main .package-example-image {
+    text-align: center;
+}
+
+.main .seo-header-2-product {
+    font-size: 26px;
+}
+
+.header .right-column .livechat, .main .button-buy {
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+}
+
+.clr {
+    height: 90px;
+}
+
+.footer {
+    height: 90px;
+    margin-top: -90px;
+    width: 100%;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#b0daf3, #7eadd6);
+}
+
+/* LG */
+@media (min-width: 1200px ) {
+    .header {
+        color: #fff;
+    }
+
+    .left-column .positioner-content {
+        padding-top: 12px;
+    }
+
+    .left-column a, .middle-column a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .left-column .logo, .left-column .sitename,
+    .middle-column .seo-header-1, .middle-column .sitetype,
+    .right-column .phone-1, .right-column .phone-2,
+    .right-column .container-livechat {
+        text-align: center;
+    }
+
+    .left-column .sitename {
+        font-size: 20px;
+    }
+
+    .middle-column a {
+        padding-top: 10px;
+        height: 100%;
+    }
+
+    .middle-column .sitetype {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    .middle-column .seo-header-1 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .right-column .phone-1, .right-column .phone-2,
+    .right-column .container-livechat {
+        font-size: 18px;
+    }
+
+    .right-column .livechat {
+        padding-left: 33px;
+        text-transform: uppercase;
+        background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+    }
+
+    .container {
+        width: 998px;
+    }
+
+    .main .ksilen-image, .main .container-button-buy {
+        text-align: center;
+    }
+
+    .main .container-button-buy {
+        margin-top: 25px;
+    }
+
+    .main .ksilen-full-desc {
+        margin-top: 20px;
+    }
+
+    .main .ksilen-full-desc p span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* MD */
+@media (min-width: 998px) and (max-width: 1199px) {
+    .header {
+        color: #fff;
+    }
+
+    .left-column .positioner-content {
+        padding-top: 12px;
+    }
+
+    .left-column a, .middle-column a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .left-column .logo, .left-column .sitename,
+    .middle-column .seo-header-1, .middle-column .sitetype,
+    .right-column .phone-1, .right-column .phone-2,
+    .right-column .container-livechat {
+        text-align: center;
+    }
+
+    .left-column .sitename {
+        font-size: 20px;
+    }
+
+    .middle-column a {
+        padding-top: 10px;
+        height: 100%;
+    }
+
+    .middle-column .sitetype {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+
+    .middle-column .seo-header-1 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .right-column .phone-1, .right-column .phone-2,
+    .right-column .container-livechat {
+        font-size: 18px;
+    }
+
+    .right-column .livechat {
+        padding-left: 33px;
+        text-transform: uppercase;
+        background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+    }
+
+    .main .ksilen-image, .main .container-button-buy {
+        text-align: center;
+    }
+
+    .main .container-button-buy {
+        margin-top: 25px;
+    }
+
+    .main .ksilen-full-desc {
+        margin-top: 20px;
+    }
+
+    .main .ksilen-full-desc p span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 997px) {
+    .header {
+        color: #fff;
+    }
+
+    .left-column .positioner-content {
+        padding-top: 12px;
+    }
+
+    .left-column a, .middle-column a {
+        display: block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .left-column .logo, .left-column .sitename,
+    .middle-column .seo-header-1, .middle-column .sitetype,
+    .right-column .phone-1, .right-column .phone-2,
+    .right-column .container-livechat {
+        text-align: center;
+    }
+
+    .left-column .sitename {
+        font-size: 20px;
+    }
+
+    .middle-column a {
+        padding-top: 16px;
+        height: 100%;
+    }
+
+    .middle-column .sitetype {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 24px;
+    }
+
+    .middle-column .seo-header-1 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 0;
+        margin-top: 5px;
+    }
+
+    .right-column .container-phones {
+        padding-top: 10px;
+    }
+
+    .right-column .phone-1, .right-column .phone-2 {
+        font-size: 16px;
+    }
+
+    .right-column .livechat {
+        padding-left: 33px;
+        font-size: 12px;
+        text-transform: uppercase;
+        background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+    }
+
+    .main .ksilen-image, .main .container-button-buy {
+        text-align: center;
+    }
+
+    .main .container-button-buy {
+        margin-top: 25px;
+    }
+
+    .main .ksilen-full-desc {
+        margin-top: 20px;
+    }
+
+    .main .ksilen-full-desc p span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+        background: linear-gradient(#b0daf3, #7eadd6);
+    }
+}
+
+/* XS */
+@media (max-width: 767px) {
+    .header {
+        height: 200px;
+    }
+
+    .left-column {
+        height: 50px;
+        padding: 0;
+    }
+
+    .positioner-content {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .left-column a {
+        display: inline-block;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .left-column .logo {
+        float: left;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+        height: 40px;
+        line-height: 57px;
+    }
+
+    .left-column .sitename {
+        float: left;
+        padding: 0;
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+
+    .middle-column {
+        height: 60px;
+        margin-top: 5px;
+        padding: 0;
+    }
+
+    .middle-column a {
+        display: block;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .middle-column .sitetype {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .middle-column .seo-header-1 {
+        margin-top: 3px;
+    }
+
+    .middle-column .seo-header-1 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .right-column {
+        height: 85px;
+    }
+
+    .right-column .phone-1, .right-column .phone-2 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .right-column .container-livechat {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .right-column .livechat {
+        padding-left: 33px;
+        text-transform: uppercase;
+        background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+    }
+
+    .main {
+        width: 100%;
+        background-color: #b0daf3;
+    }
+
+    .main .seo-header-2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main .seo-header-2 span {
+        display: block;
+    }
+
+    .main .ksilen-image img {
+        border-radius: 10px;
+    }
+
+    .main .ksilen-image {
+        text-align: center;
+    }
+
+    .main .container-button-buy {
+        margin-top: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .main .button-buy {
+        padding-left: 33px;
+    }
+
+    .main .ksilen-full-desc {
+        margin-top: 20px;
+    }
+
+    .main .ksilen-full-desc p span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .main .seo-header-2-product {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main .package-example-image img {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .footer a {
+        display: inline-block;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .footer p {
+        margin: 0;
+    }
+
+    .footer .footer-bot-p {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    .left-column .sitename {
+        font-size: 24px;
+        padding-top: 1px;
+    }
+}

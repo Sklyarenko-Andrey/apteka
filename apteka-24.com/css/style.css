@@ -1,0 +1,836 @@
+@import "http://webfonts.ru/import/cabin.css";
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #6fa3e4;
+    background: linear-gradient(#7eadd6, #b0daf3);
+}
+
+.navbar .navbar-header {
+    height: 70px;
+}
+
+.nav-btn-back {
+    width: 20%;
+    float: left;
+}
+
+.navbar .navbar-header .nav-centre {
+    text-align: center;
+}
+
+.nav-btn-burger {
+    width: 20%;
+    float: right;
+}
+
+.navbar .navbar-header .btn-back {
+    width: 44px;
+    height: 34px;
+    margin-top: 14px;
+    margin-left: 15px;
+    /*background-color: #f8f8f8;*/
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    border: 1px solid #dad7d7;
+    padding: 0;
+    padding-top: 5px;
+    color: grey;
+}
+
+.navbar .navbar-brand {
+    height: 100%;
+    line-height: 30px;
+    color: #fff;
+    float: none;
+}
+
+.navbar .nav-centre, .navbar .nav-left {
+    padding-top: 5px;
+}
+
+.navbar .navbar-header .nav-centre > a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-centre .site-type {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.nav-centre .seo-header-1 h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.navbar .navbar-header .nav-centre > a:hover,
+.navbar .navbar-header .nav-centre > a:focus,
+.navbar .navbar-header .nav-centre > a:active {
+    color: #fff;
+}
+
+.navbar-toggle {
+    margin-top: 13px;
+    background-color: #f8f8f8;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'cabin', sans-serif;
+}
+
+.wrapper-all {
+    width: 100%;
+    min-height: 100%
+}
+
+.header {
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.navbar .navbar-header {
+    display: block;
+    float: none;
+}
+
+.navbar .navbar-header .nav-btn-back {
+    display: none;
+}
+
+.navbar .navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar ul > li > a {
+    height: 60px;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:active,
+.navbar .navbar-nav > li > a:focus {
+    height: 100%;
+    padding: 5px 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    background-color: #90bcdd;
+    transition: 1s;
+}
+
+.navbar ul > li:last-child > a {
+    border-bottom: none;
+}
+
+/*######################## MOBILE MENU ################################*/
+
+/*### MOBILE MENU 3 [BURGER only] ###*/
+.navbar .navbar-toggle {
+    border-color: transparent;
+    background-color: transparent;
+    background-color: rgba(245, 239, 239, 0.42);
+    padding: 9px 7px;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:active
+{
+    background-color: rgba(245, 239, 239, 0.42);
+}
+.navbar .navbar-toggle .icon-bar {
+    height: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+/*### MOBILE MENU 3 END ###*/
+
+/*### MOBILE BTN-LEFT ###*/
+.navbar .navbar-header .btn-back {
+    width: 44px;
+    height: 34px;
+    margin-top: 14px;
+    margin-left: 15px;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0;
+    padding-top: 5px;
+    color: white;
+}
+/*### MOBILE BTN-LEFT END ###*/
+
+/*######################## MOBILE MENU END ################################*/
+.left-column, .middle-column, .right-column {
+    height: 100%;
+}
+
+.nav-left,
+.nav-centre,
+.nav-right {
+    height: 100%;
+}
+
+.navbar .nav-left a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .nav-left .logo,
+.navbar .nav-left .sitename {
+    text-align: center;
+}
+
+.navbar .nav-left .sitename {
+    font-size: 18px;
+}
+
+.navbar .navbar-header .nav-right {
+    text-align: center;
+}
+
+.nav-right .cntr-phones,
+.nav-right .cntr-livechat {
+    padding: 0;
+    padding-top: 15px;
+    color: #fff;
+}
+
+.navbar .cntr-livechat .livechat {
+    padding-left: 33px;
+    background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+}
+
+.main {
+    padding: 0;
+}
+
+.main .cntr-all-ctgrys {
+    background-color: #fff;
+}
+
+.main .cntr-ctgry {
+    margin-bottom: 20px;
+}
+
+.main .last-cntr-ctgry {
+    margin-bottom: 1px;
+}
+
+.navbar .navbar-ul {
+    margin-top: 5px;
+}
+
+.navbar .navbar-ul,
+.main .seo-header-2,
+.main .seo-header-3,
+.main .cntr-img-tab {
+    text-align: center;
+}
+
+.main .seo-header-2 {
+    float: none;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.main .first-seo-header-2 {
+    margin-top: 20px;
+}
+.main .seo-header-3 {
+    margin-top: 10px;
+}
+.main .pointer-catgr {
+    height: 45px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.main .c-cntr-tab {
+    padding: 0 2px;
+}
+
+.main .cntr-tab {
+    height: 100%;
+    padding: 0 15px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-radius: 15px;
+    background: white;
+    box-shadow: inset 0px 0px 6px 1px #ccc8c8;
+}
+
+.main .c-cntr-tab:hover .product {
+    box-shadow: inset 0px 0px 1px 1px #000;
+    transition: box-shadow 0.8s;
+}
+
+.main .seo-header-3 span {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.main .cntr-img-tab {
+    height: 112px;
+}
+.main .cntr-img-tab img {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.main .cntr-btn-selectpack {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .fadeIn {
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+}
+
+.main .flipInY {
+    animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+}
+
+.main .cntr-tab .cntr-full-desc-tab p span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main .cntr-tab .cntr-full-desc-tab p:last-child {
+    margin: 0;
+}
+
+.main .product-row-1 {
+    margin-bottom: 20px;
+}
+
+.main .product-row-1 .cntr-product {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-top: 13px;
+}
+
+.main .product-image-cntr {
+    height: 124px;
+}
+
+.main .product-image-cntr img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main .product-blistr-cntr img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main .product-blistr-cntr {
+    height: 122px;
+}
+
+.main .product-desc-shrt-cntr p {
+    margin: 0;
+}
+
+.main .table-product {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main .table-product .dosage-container {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-top: 1px solid lightgrey;
+}
+
+.main .p-th > .p-td,
+.main .p-tr > .p-td {
+    text-align: center;
+}
+
+.main .p-th > .p-td:last-child {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.main .p-tr > .p-td:last-child {
+    text-align: right;
+}
+
+.main .p-th {
+    padding-bottom: 20px;
+}
+
+.main .p-tr {
+    padding-bottom: 15px;
+}
+
+.main .p-th > .p-td {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.main .package-quantity {
+    padding-right: 0;
+    padding-left: 0;
+}
+.main .p-td .package-mg {
+    font-size: 20px;
+    font-weight: 800;
+    color: #716f6f;
+}
+
+.main .p-td .package-pills {
+    color: #716f6f;
+}
+
+.main .price-package {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.main .price-per-pill {
+    font-size: 20px;
+    color: #716f6f;
+}
+
+.main .p-tr .btn-checkout {
+    text-transform: uppercase;
+}
+
+.main .p-tr .btn-checkout:hover {
+    box-shadow: 0 0 3px 3px #7dd47d;
+}
+
+.main .payment-method ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.main .payment-method ul li {
+    display: inline-block;
+}
+
+.main .payment-method ul li i {
+    display: block;
+    padding: 10px;
+}
+
+.main .package-example {
+    margin-bottom: 10px;
+}
+
+.main .package-example-image {
+    text-align: center;
+}
+
+.main .seo-header-2-product {
+    font-size: 26px;
+    text-align: center;
+}
+
+.clr {
+    height: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    margin-top: -100px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #6fa3e4;
+    background: linear-gradient(#b0daf3, #7eadd6);
+}
+
+.footer a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .footer-bot-p {
+    margin-bottom: 20px;
+}
+
+
+/* LG */
+@media (min-width: 1200px ) {
+    .nav-right .cntr-phones {
+        padding-top: 10px;
+        text-align: right;
+        font-size: 16px;
+    }
+}
+
+/* MD */
+@media (min-width: 998px) and (max-width: 1199px) {
+    .nav-centre .seo-header-1 h1 {
+        font-size: 16px;
+    }
+    .nav-right .cntr-phones {
+        text-align: center;
+    }
+
+    .main .table-product {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 997px) {
+    .navbar .nav-left .logo {
+        font-size: 10px;
+    }
+    .navbar .nav-left .sitename {
+        font-size: 16px;
+    }
+    .navbar .navbar-header .nav-centre > a {
+    }
+    .nav-centre .site-type {
+        font-size: 20px;
+    }
+    .navbar .navbar-nav > li > a,
+    .navbar .navbar-nav > li > a:hover,
+    .navbar .navbar-nav > li > a:active,
+    .navbar .navbar-nav > li > a:focus {
+        font-size: 14px;
+    }
+    .nav-right .cntr-phones,
+    .nav-right .cntr-livechat {
+        padding: 0;
+        padding-top: 15px;
+        padding-right: 5px;
+    }
+    .nav-right .cntr-phones {
+        font-size: 13px;
+    }
+    .navbar .cntr-livechat .livechat {
+        padding: 6px 12px;
+        background: #5cb85c;
+    }
+
+
+    .nav-centre .seo-header-1 h1 {
+        font-size: 14px;
+    }
+
+    .main .table-product {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .main .product-row-1 .cntr-product {
+        width: 100%;
+    }
+}
+
+/* XS */
+@media (max-width: 767px) {
+    .navbar {
+        margin-bottom: 0;
+        background-color: #6fa3e4;
+        background: linear-gradient(#7eadd6, #b0daf3);
+    }
+
+    .navbar .navbar-header {
+        height: 60px;
+    }
+
+    .navbar .navbar-header .nav-btn-back {
+        display: block;
+        width: 20%;
+        float: left;
+        text-shadow: none;
+    }
+
+    .navbar .navbar-header .nav-centre {
+        width: 60%;
+        float: left;
+    }
+
+    .navbar .navbar-header .nav-btn-burger {
+        width: 20%;
+        float: right;
+    }
+
+    .navbar .navbar-header .btn-back {
+        width: 44px;
+        height: 34px;
+        margin-top: 14px;
+        margin-left: 15px;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        border: 1px solid #dad7d7;
+        padding: 0;
+        padding-top: 5px;
+        color: grey;
+    }
+
+    .navbar .navbar-brand {
+        height: 100%;
+        line-height: 30px;
+        color: #ffffff;
+        float: none;
+    }
+
+    .navbar .navbar-ul {
+        margin-top: 0;
+    }
+
+    .navbar .navbar-header .nav-centre > a {
+        display: block;
+        text-align: center;
+        padding: 0;
+        padding-top: 15px;
+        font-size: 22px;
+    }
+
+    .navbar-toggle {
+        margin-top: 13px;
+        background-color: #f8f8f8;
+    }
+
+    .navbar .navbar-nav {
+        width: inherit;
+        float: none;
+        margin: 0 -15px;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-nav > li {
+        display: block;
+        float: none;
+    }
+
+    .navbar ul > li > a {
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .main .cntr-info {
+        background-color: #b0daf3;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid #e7e7e7;
+    }
+
+    .main .cntr-siteinfo {
+        margin-top: 5px;
+    }
+
+    .main .cntr-siteinfo a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .main .site-type {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .main .seo-header-1 {
+        margin-top: 3px;
+    }
+
+    .main .seo-header-1 h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .main .phone-1, .main .phone-2 {
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .main .cntr-phones {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .main .cntr-livechat {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .main .cntr-livechat .livechat {
+        padding-left: 33px;
+        text-transform: uppercase;
+        text-shadow: none;
+        background: url(../images/livechat/livechat.png) 10px center no-repeat #5cb85c;
+    }
+
+    .main .cntr-catgr-tabs,
+    .main .product-page-cntr {
+        padding: 0;
+    }
+
+    .main .product-row-1,
+    .main .product-row-2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main .product-row-1 .cntr-product {
+        width: 100%;
+    }
+
+    .main .product-blistr-cntr {
+        margin-bottom: 10px;
+    }
+
+    .main .table-product {
+        width: 100%;
+    }
+
+    .main .p-th > .p-td:last-child {
+        text-align: right;
+        padding-right: 23px;
+    }
+
+    .main .p-th > .p-td,
+    .main .p-tr > .p-td {
+        padding: 0;
+    }
+
+    .main .p-td .package-mg {
+        font-size: 18px;
+    }
+
+    .main .p-td .package-pills {
+    }
+
+    .main .price-per-pill {
+        font-size: 16px;
+    }
+
+    .main .seo-header-2-product {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .main .package-example-image img {
+        display: block;
+        width: 100%;
+    }
+    /*### MOBILE BTN-LEFT ###*/
+    .navbar .navbar-header .btn-back {
+        width: 44px;
+        height: 34px;
+        margin-top: 14px;
+        margin-left: 15px;
+        background-color: rgba(245, 239, 239, 0.42);
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 0;
+        padding-top: 5px;
+        color: white;
+    }
+    /*### MOBILE BTN-LEFT END ###*/
+
+    .main .package-th,
+    .main .price-th,
+    .main .per-pill-th,
+    .main .checkout-th
+    {font-size: 13px;}
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    .main .product-image-cntr,
+    .main .product-blistr-cntr {
+        width: 50%;
+    }
+}
+
+/* ##### XS-320 ##### */
+@media (max-width: 320px) {
+    .main .product-row-2 {
+        padding: 0;
+    }
+
+    .main .p-th > .p-td:last-child {
+        text-align: right;
+        padding-right: 15px;
+    }
+
+    .main .p-th > .p-td:first-child,
+    .main .p-tr > .p-td:first-child {
+        width: 23%;
+    }
+
+    .main .p-th > .p-td:last-child,
+    .main .p-tr > .p-td:last-child {
+        width: 27%;
+    }
+
+    .main .p-tr .btn-checkout {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+    .navbar .navbar-header .nav-centre > a {
+        font-size: 20px;
+    }
+    .main .package-th,
+    .main .price-th,
+    .main .per-pill-th,
+    .main .checkout-th
+    {font-size: 10px;}
+    .main .p-td .package-mg {
+        font-size: 15px;
+    }
+
+    .main .p-td .package-pills {
+        font-size: 11px;
+    }
+
+    .main .price-package {
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
