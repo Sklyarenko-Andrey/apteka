@@ -24,21 +24,6 @@
     float: right;
 }
 
-.navbar .navbar-header .btn-back {
-    width: 44px;
-    height: 34px;
-    margin-top: 14px;
-    margin-left: 15px;
-    /*background-color: #f8f8f8;*/
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    border: 1px solid #dad7d7;
-    padding: 0;
-    padding-top: 5px;
-    color: grey;
-}
-
 .navbar .navbar-brand {
     height: 100%;
     line-height: 30px;
@@ -74,11 +59,6 @@
 .navbar .navbar-header .nav-centre > a:focus,
 .navbar .navbar-header .nav-centre > a:active {
     color: #fff;
-}
-
-.navbar-toggle {
-    margin-top: 13px;
-    background-color: #f8f8f8;
 }
 
 html, body {
@@ -139,25 +119,27 @@ html, body {
 
 /*######################## MOBILE MENU ################################*/
 
-/*### MOBILE MENU 3 [BURGER only] ###*/
+/*### MOBILE MENU BURGER ###*/
 .navbar .navbar-toggle {
-    border-color: transparent;
-    background-color: transparent;
-    background-color: rgba(245, 239, 239, 0.42);
+    margin-top: 13px;
     padding: 9px 7px;
+    border-color: transparent;
+    background-color: rgba(245, 239, 239, 0.42);
 }
+
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus,
-.navbar .navbar-toggle:active
-{
+.navbar .navbar-toggle:active {
     background-color: rgba(245, 239, 239, 0.42);
 }
+
 .navbar .navbar-toggle .icon-bar {
     height: 3px;
     border-radius: 3px;
     background-color: white;
 }
-/*### MOBILE MENU 3 END ###*/
+
+/*### MOBILE MENU BURGER END ###*/
 
 /*### MOBILE BTN-LEFT ###*/
 .navbar .navbar-header .btn-back {
@@ -165,6 +147,7 @@ html, body {
     height: 34px;
     margin-top: 14px;
     margin-left: 15px;
+    background-color: rgba(245, 239, 239, 0.42);
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -172,9 +155,11 @@ html, body {
     padding-top: 5px;
     color: white;
 }
+
 /*### MOBILE BTN-LEFT END ###*/
 
 /*######################## MOBILE MENU END ################################*/
+
 .left-column, .middle-column, .right-column {
     height: 100%;
 }
@@ -192,16 +177,13 @@ html, body {
 }
 
 .navbar .nav-left .logo,
-.navbar .nav-left .sitename {
+.navbar .nav-left .sitename,
+.navbar .navbar-header .nav-right {
     text-align: center;
 }
 
 .navbar .nav-left .sitename {
     font-size: 18px;
-}
-
-.navbar .navbar-header .nav-right {
-    text-align: center;
 }
 
 .nav-right .cntr-phones,
@@ -247,16 +229,18 @@ html, body {
     float: none;
     margin-top: 35px;
     margin-bottom: 5px;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .main .first-seo-header-2 {
     margin-top: 20px;
 }
+
 .main .seo-header-3 {
     margin-top: 10px;
 }
+
 .main .pointer-catgr {
     height: 45px;
     font-size: 36px;
@@ -274,11 +258,11 @@ html, body {
     border-bottom: 2px solid #fff;
     border-radius: 15px;
     background: white;
-    box-shadow: inset 0px 0px 6px 1px #ccc8c8;
+    box-shadow: inset 0 0 6px 1px #ccc8c8;
 }
 
 .main .c-cntr-tab:hover .product {
-    box-shadow: inset 0px 0px 1px 1px #000;
+    box-shadow: inset 0 0 1px 1px #000;
     transition: box-shadow 0.8s;
 }
 
@@ -291,12 +275,14 @@ html, body {
 .main .cntr-img-tab {
     height: 112px;
 }
+
 .main .cntr-img-tab img {
     display: block;
     height: 100%;
     margin: 0 auto;
     border-radius: 10px;
 }
+
 .main .cntr-btn-selectpack {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -401,10 +387,12 @@ html, body {
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .main .package-quantity {
     padding-right: 0;
     padding-left: 0;
 }
+
 .main .p-td .package-mg {
     font-size: 20px;
     font-weight: 800;
@@ -490,7 +478,6 @@ html, body {
     margin-bottom: 20px;
 }
 
-
 /* LG */
 @media (min-width: 1200px ) {
     .nav-right .cntr-phones {
@@ -505,6 +492,7 @@ html, body {
     .nav-centre .seo-header-1 h1 {
         font-size: 16px;
     }
+
     .nav-right .cntr-phones {
         text-align: center;
     }
@@ -520,34 +508,37 @@ html, body {
     .navbar .nav-left .logo {
         font-size: 10px;
     }
+
     .navbar .nav-left .sitename {
         font-size: 16px;
     }
-    .navbar .navbar-header .nav-centre > a {
-    }
+
     .nav-centre .site-type {
         font-size: 20px;
     }
+
     .navbar .navbar-nav > li > a,
     .navbar .navbar-nav > li > a:hover,
     .navbar .navbar-nav > li > a:active,
     .navbar .navbar-nav > li > a:focus {
         font-size: 14px;
     }
+
     .nav-right .cntr-phones,
     .nav-right .cntr-livechat {
         padding: 0;
         padding-top: 15px;
         padding-right: 5px;
     }
+
     .nav-right .cntr-phones {
         font-size: 13px;
     }
+
     .navbar .cntr-livechat .livechat {
         padding: 6px 12px;
         background: #5cb85c;
     }
-
 
     .nav-centre .seo-header-1 h1 {
         font-size: 14px;
@@ -592,20 +583,6 @@ html, body {
         float: right;
     }
 
-    .navbar .navbar-header .btn-back {
-        width: 44px;
-        height: 34px;
-        margin-top: 14px;
-        margin-left: 15px;
-        background-image: none;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        border: 1px solid #dad7d7;
-        padding: 0;
-        padding-top: 5px;
-        color: grey;
-    }
-
     .navbar .navbar-brand {
         height: 100%;
         line-height: 30px;
@@ -623,11 +600,6 @@ html, body {
         padding: 0;
         padding-top: 15px;
         font-size: 22px;
-    }
-
-    .navbar-toggle {
-        margin-top: 13px;
-        background-color: #f8f8f8;
     }
 
     .navbar .navbar-nav {
@@ -740,9 +712,6 @@ html, body {
         font-size: 18px;
     }
 
-    .main .p-td .package-pills {
-    }
-
     .main .price-per-pill {
         font-size: 16px;
     }
@@ -756,27 +725,13 @@ html, body {
         display: block;
         width: 100%;
     }
-    /*### MOBILE BTN-LEFT ###*/
-    .navbar .navbar-header .btn-back {
-        width: 44px;
-        height: 34px;
-        margin-top: 14px;
-        margin-left: 15px;
-        background-color: rgba(245, 239, 239, 0.42);
-        background-image: none;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        padding: 0;
-        padding-top: 5px;
-        color: white;
-    }
-    /*### MOBILE BTN-LEFT END ###*/
 
     .main .package-th,
     .main .price-th,
     .main .per-pill-th,
-    .main .checkout-th
-    {font-size: 13px;}
+    .main .checkout-th {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
@@ -816,11 +771,14 @@ html, body {
     .navbar .navbar-header .nav-centre > a {
         font-size: 20px;
     }
+
     .main .package-th,
     .main .price-th,
     .main .per-pill-th,
-    .main .checkout-th
-    {font-size: 10px;}
+    .main .checkout-th {
+        font-size: 10px;
+    }
+
     .main .p-td .package-mg {
         font-size: 15px;
     }
